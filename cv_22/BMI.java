@@ -31,7 +31,7 @@ public class BMI {
                System.out.println("Tvoje kategorie je podvaha hrozi vysoke zdravtni riziko tvoje BMI je "+vysledek);
            }
            else if (vysledek<24.9 && vysledek > 18.5){
-                 System.out.println("Tvoje kategorie je v normalu nehrozi  zdravtni riziko tvoje BMI je "+vysledek);
+                 System.out.println("Tvoje kateTgorie je v normalu nehrozi  zdravtni riziko tvoje BMI je "+vysledek);
            }
            else if (vysledek<29.9 && vysledek >24.9){
             System.out.println("Tvoje kategorie je v nadvaha hrozi minimalni zdravtni riziko tvoje BMI je "+vysledek);
@@ -40,11 +40,11 @@ public class BMI {
             System.out.println("Tvoje kategorie je v obezita 1. stupne hrozi zvysene zdravtni riziko tvoje BMI je "+vysledek);
            }
            else if (vysledek <=39.9 && vysledek > 34.9 ){
-            System.out.println("Tvoje kategorie je v obezita 2. stupne hrozi vysoke zdravtni riziko tvoje BMI je "+vysledek);   
+            System.out.println("Tvoje kategorie je v obezita 2. stupne hrozi vysoke zdravtni riziko tvoje BMI je "+vysledek);
 
         }
         else if (vysledek >=40  ){
-            System.out.println("Tvoje kategorie je v obezita 3. stupne hrozi velike zdravtni riziko");   
+            System.out.println("Tvoje kategorie je v obezita 3. stupne hrozi velike zdravtni riziko");
         }
     }
 }
